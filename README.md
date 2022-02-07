@@ -1,1 +1,1 @@
-# CPSC-121
+# CPSC-121 Object-Oriented Programming
