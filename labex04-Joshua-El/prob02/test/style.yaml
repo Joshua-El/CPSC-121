@@ -1,0 +1,34 @@
+---
+MainSourceFile:  '/home/student/labex04-Joshua-El/prob02/main.cpp'
+Diagnostics:     
+  - DiagnosticName:  clang-analyzer-core.UndefinedBinaryOperatorResult
+    Message:         'The left operand of ''=='' is a garbage value'
+    FileOffset:      683
+    FilePath:        main.cpp
+    Notes:           
+      - Message:         '''discount'' declared without an initial value'
+        FilePath:        main.cpp
+        FileOffset:      77
+      - Message:         'Assuming ''number_of_games'' is > 0'
+        FilePath:        main.cpp
+        FileOffset:      403
+      - Message:         Taking true branch
+        FilePath:        main.cpp
+        FileOffset:      399
+      - Message:         Loop condition is true.  Entering loop body
+        FilePath:        main.cpp
+        FileOffset:      430
+      - Message:         Taking false branch
+        FilePath:        main.cpp
+        FileOffset:      593
+      - Message:         'Assuming ''i'' is > ''number_of_games'''
+        FilePath:        main.cpp
+        FileOffset:      446
+      - Message:         Loop condition is false. Execution continues on line 23
+        FilePath:        main.cpp
+        FileOffset:      430
+      - Message:         'The left operand of ''=='' is a garbage value'
+        FilePath:        main.cpp
+        FileOffset:      683
+    Replacements:    []
+...
