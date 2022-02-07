@@ -1,0 +1,13 @@
+---
+MainSourceFile:  '/home/student/labex08-Joshua-El/prob01/count-odd.cpp'
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'expected '')'''
+    FileOffset:      162
+    FilePath:        count-odd.cpp
+    Notes:           
+      - Message:         'to match this ''('''
+        FilePath:        count-odd.cpp
+        FileOffset:      143
+    Replacements:    []
+...

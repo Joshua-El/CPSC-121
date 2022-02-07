@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/labex06-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex06-Joshua-El/prob01/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex06-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 time.cpp -o main",
+ "file" : "/home/student/labex06-Joshua-El/prob01/time.cpp"
+ },
+ {
+ "directory" : "/home/student/labex06-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 time.hpp -o main",
+ "file" : "/home/student/labex06-Joshua-El/prob01/time.hpp"
+ },
+]
