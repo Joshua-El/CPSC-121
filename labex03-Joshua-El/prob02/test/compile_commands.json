@@ -1,0 +1,7 @@
+[
+ {
+ "directory" : "/home/student/labex03-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex03-Joshua-El/prob02/main.cpp"
+ },
+]
