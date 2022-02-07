@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="19" failures="1" disabled="0" errors="0" time="0.004" timestamp="2019-12-12T23:18:59" name="AllTests">
+  <testsuite name="Car" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-12T23:18:59">
+    <testcase name="accessor_mutator" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="Car" />
+    <testcase name="default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="Car" />
+    <testcase name="non_default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="Car" />
+    <testcase name="drive" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="Car" />
+    <testcase name="is_empty" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="Car" />
+  </testsuite>
+  <testsuite name="ElectricCar" tests="5" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-12-12T23:18:59">
+    <testcase name="accessor_mutator" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="ElectricCar" />
+    <testcase name="default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="ElectricCar" />
+    <testcase name="non_default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="ElectricCar" />
+    <testcase name="drive" status="run" result="completed" time="0.001" timestamp="2019-12-12T23:18:59" classname="ElectricCar" />
+    <testcase name="drive_and_is_empty" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="ElectricCar" />
+  </testsuite>
+  <testsuite name="GasolineCar" tests="5" failures="1" disabled="0" errors="0" time="0.002" timestamp="2019-12-12T23:18:59">
+    <testcase name="accessor_mutator" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="GasolineCar" />
+    <testcase name="default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="GasolineCar" />
+    <testcase name="non_default_constructor" status="run" result="completed" time="0" timestamp="2019-12-12T23:18:59" classname="GasolineCar" />
+    <testcase name="drive" status="run" result="completed" time="0.001" timestamp="2019-12-12T23:18:59" classname="GasolineCar">
+      <failure message="test/unittest.cpp:119&#x0A;Expected equality of these values:&#x0A;  your_gasoline_car.speed()&#x0A;    Which is: 0&#x0A;  80&#x0A;The test drove the car to 80 mph." type=""><![CDATA[test/unittest.cpp:119
+Expected equality of these values:
+  your_gasoline_car.speed()
+    Which is: 0
+  80
+The test drove the car to 80 mph.]]></failure>
+    </testcase>
+    <testcase name="drive_and_is_empty" status="run" result="skipped" time="0.001" timestamp="2019-12-12T23:18:59" classname="GasolineCar" />
+  </testsuite>
+  <testsuite name="Driver" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-12T23:18:59">
+    <testcase name="Input1" status="run" result="skipped" time="0" timestamp="2019-12-12T23:18:59" classname="Driver" />
+    <testcase name="Input2" status="run" result="skipped" time="0" timestamp="2019-12-12T23:18:59" classname="Driver" />
+    <testcase name="Output1" status="run" result="skipped" time="0" timestamp="2019-12-12T23:18:59" classname="Driver" />
+    <testcase name="Outpu2" status="run" result="skipped" time="0" timestamp="2019-12-12T23:18:59" classname="Driver" />
+  </testsuite>
+</testsuites>
