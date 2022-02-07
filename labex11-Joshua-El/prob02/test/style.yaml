@@ -1,0 +1,58 @@
+---
+MainSourceFile:  '/home/student/labex11-Joshua-El/prob02/candy_shop.cpp'
+Diagnostics:     
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''candy'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      140
+    FilePath:        candy_shop.cpp
+    Replacements:    
+      - FilePath:        candy_shop.cpp
+        Offset:          65
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        candy_shop.cpp
+        Offset:          140
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        candy_shop.cpp
+        Offset:          145
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  clang-analyzer-core.uninitialized.Assign
+    Message:         The left expression of the compound assignment is an uninitialized value. The computed value will also be garbage
+    FileOffset:      596
+    FilePath:        candy_shop.cpp
+    Notes:           
+      - Message:         '''total'' declared without an initial value'
+        FilePath:        candy_shop.cpp
+        FileOffset:      536
+      - Message:         Assuming the condition is true
+        FilePath:        candy_shop.cpp
+        FileOffset:      568
+      - Message:         Loop condition is true.  Entering loop body
+        FilePath:        candy_shop.cpp
+        FileOffset:      552
+      - Message:         The left expression of the compound assignment is an uninitialized value. The computed value will also be garbage
+        FilePath:        candy_shop.cpp
+        FileOffset:      596
+    Replacements:    []
+  - DiagnosticName:  clang-analyzer-core.uninitialized.UndefReturn
+    Message:         Undefined or garbage value returned to caller
+    FileOffset:      622
+    FilePath:        candy_shop.cpp
+    Notes:           
+      - Message:         '''total'' declared without an initial value'
+        FilePath:        candy_shop.cpp
+        FileOffset:      536
+      - Message:         Assuming the condition is false
+        FilePath:        candy_shop.cpp
+        FileOffset:      568
+      - Message:         Loop condition is false. Execution continues on line 26
+        FilePath:        candy_shop.cpp
+        FileOffset:      552
+      - Message:         Undefined or garbage value returned to caller
+        FilePath:        candy_shop.cpp
+        FileOffset:      622
+    Replacements:    []
+...

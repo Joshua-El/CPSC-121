@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/labex11-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex11-Joshua-El/prob02/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex11-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 candy_shop.cpp -o main",
+ "file" : "/home/student/labex11-Joshua-El/prob02/candy_shop.cpp"
+ },
+ {
+ "directory" : "/home/student/labex11-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 candy_shop.hpp -o main",
+ "file" : "/home/student/labex11-Joshua-El/prob02/candy_shop.hpp"
+ },
+]
