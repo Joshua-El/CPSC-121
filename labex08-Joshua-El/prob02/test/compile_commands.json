@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/labex08-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex08-Joshua-El/prob02/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex08-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 lsa.cpp -o main",
+ "file" : "/home/student/labex08-Joshua-El/prob02/lsa.cpp"
+ },
+ {
+ "directory" : "/home/student/labex08-Joshua-El/prob02",
+ "command" : "clang++ -std=c++17 lsa.hpp -o main",
+ "file" : "/home/student/labex08-Joshua-El/prob02/lsa.hpp"
+ },
+]

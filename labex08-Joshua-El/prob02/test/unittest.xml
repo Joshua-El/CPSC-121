@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" time="0.026" timestamp="2019-10-20T21:06:18" name="AllTests">
+  <testsuite name="LSA" tests="9" failures="0" disabled="0" errors="0" time="0.003" timestamp="2019-10-20T21:06:18">
+    <testcase name="EmptyArray" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="OneElementArrayPresent" status="run" result="completed" time="0.001" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="OneElementArrayNotPresent" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArrayPresent" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArrayFirstElement" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArraySecondElement" status="run" result="completed" time="0.001" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArrayMiddleElement" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArrayLastElement" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+    <testcase name="MultiElementArrayNotPresent" status="run" result="completed" time="0" timestamp="2019-10-20T21:06:18" classname="LSA" />
+  </testsuite>
+  <testsuite name="UserInput" tests="1" failures="0" disabled="0" errors="0" time="0.008" timestamp="2019-10-20T21:06:18">
+    <testcase name="AskSearchNumber" status="run" result="completed" time="0.007" timestamp="2019-10-20T21:06:18" classname="UserInput" />
+  </testsuite>
+  <testsuite name="Driver" tests="2" failures="0" disabled="0" errors="0" time="0.014" timestamp="2019-10-20T21:06:18">
+    <testcase name="NumberFound" status="run" result="completed" time="0.007" timestamp="2019-10-20T21:06:18" classname="Driver" />
+    <testcase name="NumberNotFound" status="run" result="completed" time="0.007" timestamp="2019-10-20T21:06:18" classname="Driver" />
+  </testsuite>
+</testsuites>

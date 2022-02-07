@@ -1,0 +1,92 @@
+---
+MainSourceFile:  '/home/student/labex08-Joshua-El/prob02/lsa.cpp'
+Diagnostics:     
+  - DiagnosticName:  hicpp-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      18
+    FilePath:        './lsa.hpp'
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      58
+    FilePath:        lsa.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-non-const-parameter
+    Message:         'pointer parameter ''arr'' can be pointer to const'
+    FileOffset:      62
+    FilePath:        lsa.cpp
+    Replacements:    
+      - FilePath:        lsa.cpp
+        Offset:          58
+        Length:          0
+        ReplacementText: 'const '
+      - FilePath:        './lsa.hpp'
+        Offset:          18
+        Length:          0
+        ReplacementText: 'const '
+  - DiagnosticName:  hicpp-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      18
+    FilePath:        lsa.hpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      55
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '10 is a magic number; consider replacing it with a named constant'
+    FileOffset:      65
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-magic-numbers
+    Message:         '16 is a magic number; consider replacing it with a named constant'
+    FileOffset:      75
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-magic-numbers
+    Message:         '22 is a magic number; consider replacing it with a named constant'
+    FileOffset:      79
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '8 is a magic number; consider replacing it with a named constant'
+    FileOffset:      83
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '11 is a magic number; consider replacing it with a named constant'
+    FileOffset:      86
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-magic-numbers
+    Message:         '55 is a magic number; consider replacing it with a named constant'
+    FileOffset:      93
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-magic-numbers
+    Message:         '34 is a magic number; consider replacing it with a named constant'
+    FileOffset:      97
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  readability-magic-numbers
+    Message:         '27 is a magic number; consider replacing it with a named constant'
+    FileOffset:      101
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '31 is a magic number; consider replacing it with a named constant'
+    FileOffset:      105
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '10 is a magic number; consider replacing it with a named constant'
+    FileOffset:      172
+    FilePath:        main.cpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '10 is a magic number; consider replacing it with a named constant'
+    FileOffset:      381
+    FilePath:        main.cpp
+    Replacements:    []
+...
