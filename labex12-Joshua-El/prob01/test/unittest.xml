@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" time="0.034" timestamp="2019-11-28T21:03:49" name="AllTests">
+  <testsuite name="CashCard" tests="5" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-11-28T21:03:49">
+    <testcase name="AccessorsAndMutators" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="CashCard" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="CashCard" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0.001" timestamp="2019-11-28T21:03:49" classname="CashCard" />
+    <testcase name="NormalCharge" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="CashCard" />
+    <testcase name="OverCharge" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="CashCard" />
+  </testsuite>
+  <testsuite name="DebitCard" tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2019-11-28T21:03:49">
+    <testcase name="CheckInheritance" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+    <testcase name="AccessorsAndMutators" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+    <testcase name="NormalCharge" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+    <testcase name="OverCharge" status="run" result="completed" time="0" timestamp="2019-11-28T21:03:49" classname="DebitCard" />
+  </testsuite>
+  <testsuite name="Driver" tests="2" failures="0" disabled="0" errors="0" time="0.033" timestamp="2019-11-28T21:03:49">
+    <testcase name="Input" status="run" result="completed" time="0.019" timestamp="2019-11-28T21:03:49" classname="Driver" />
+    <testcase name="Output" status="run" result="completed" time="0.012" timestamp="2019-11-28T21:03:49" classname="Driver" />
+  </testsuite>
+</testsuites>

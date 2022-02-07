@@ -1,0 +1,97 @@
+---
+MainSourceFile:  '/home/student/labex-12-Joshua-El/prob01/cash_debit_card.cpp'
+Diagnostics:     
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      274
+    FilePath:        './cash_debit_card.hpp'
+    Replacements:    
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          20
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          274
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          278
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      426
+    FilePath:        './cash_debit_card.hpp'
+    Replacements:    
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          426
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          430
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      689
+    FilePath:        './cash_debit_card.hpp'
+    Replacements:    
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          689
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        './cash_debit_card.hpp'
+        Offset:          693
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    Message:         '30.00 is a magic number; consider replacing it with a named constant'
+    FileOffset:      330
+    FilePath:        cash_debit_card.cpp
+    Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      274
+    FilePath:        cash_debit_card.hpp
+    Replacements:    
+      - FilePath:        cash_debit_card.hpp
+        Offset:          20
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        cash_debit_card.hpp
+        Offset:          274
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        cash_debit_card.hpp
+        Offset:          278
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      426
+    FilePath:        cash_debit_card.hpp
+    Replacements:    
+      - FilePath:        cash_debit_card.hpp
+        Offset:          426
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        cash_debit_card.hpp
+        Offset:          430
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      689
+    FilePath:        cash_debit_card.hpp
+    Replacements:    
+      - FilePath:        cash_debit_card.hpp
+        Offset:          689
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        cash_debit_card.hpp
+        Offset:          693
+        Length:          0
+        ReplacementText: ')'
+...

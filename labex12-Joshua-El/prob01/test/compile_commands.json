@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/labex-12-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/student/labex-12-Joshua-El/prob01/main.cpp"
+ },
+ {
+ "directory" : "/home/student/labex-12-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 cash_debit_card.cpp -o main",
+ "file" : "/home/student/labex-12-Joshua-El/prob01/cash_debit_card.cpp"
+ },
+ {
+ "directory" : "/home/student/labex-12-Joshua-El/prob01",
+ "command" : "clang++ -std=c++17 cash_debit_card.hpp -o main",
+ "file" : "/home/student/labex-12-Joshua-El/prob01/cash_debit_card.hpp"
+ },
+]
