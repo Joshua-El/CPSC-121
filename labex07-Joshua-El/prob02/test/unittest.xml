@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" time="0.043" timestamp="2019-10-17T13:50:12" name="AllTests">
+  <testsuite name="Car" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-10-17T13:50:12">
+    <testcase name="PublicMethodsPresent" status="run" result="completed" time="0" timestamp="2019-10-17T13:50:12" classname="Car" />
+    <testcase name="MutatorsAndAccessors" status="run" result="completed" time="0" timestamp="2019-10-17T13:50:12" classname="Car" />
+  </testsuite>
+  <testsuite name="LowestPrice" tests="3" failures="0" disabled="0" errors="0" time="0.001" timestamp="2019-10-17T13:50:12">
+    <testcase name="LowestFirst" status="run" result="completed" time="0" timestamp="2019-10-17T13:50:12" classname="LowestPrice" />
+    <testcase name="LowestMiddle" status="run" result="completed" time="0" timestamp="2019-10-17T13:50:12" classname="LowestPrice" />
+    <testcase name="LowestLast" status="run" result="completed" time="0.001" timestamp="2019-10-17T13:50:12" classname="LowestPrice" />
+  </testsuite>
+  <testsuite name="UserInput" tests="1" failures="0" disabled="0" errors="0" time="0.014" timestamp="2019-10-17T13:50:12">
+    <testcase name="AskCarInput" status="run" result="completed" time="0.014" timestamp="2019-10-17T13:50:12" classname="UserInput" />
+  </testsuite>
+  <testsuite name="Driver" tests="1" failures="0" disabled="0" errors="0" time="0.027" timestamp="2019-10-17T13:50:12">
+    <testcase name="ShowLowestPrice" status="run" result="completed" time="0.027" timestamp="2019-10-17T13:50:12" classname="Driver" />
+  </testsuite>
+</testsuites>

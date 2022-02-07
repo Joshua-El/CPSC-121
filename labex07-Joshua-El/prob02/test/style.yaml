@@ -1,0 +1,60 @@
+---
+MainSourceFile:  '/home/student/labex07-Joshua-El/prob02/car.cpp'
+Diagnostics:     
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      158
+    FilePath:        './car.hpp'
+    Replacements:    
+      - FilePath:        './car.hpp'
+        Offset:          20
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        './car.hpp'
+        Offset:          158
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        './car.hpp'
+        Offset:          162
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      425
+    FilePath:        './car.hpp'
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      57
+    FilePath:        car.cpp
+    Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+    FileOffset:      158
+    FilePath:        car.hpp
+    Replacements:    
+      - FilePath:        car.hpp
+        Offset:          20
+        Length:          0
+        ReplacementText: '#include <utility>
+'
+      - FilePath:        car.hpp
+        Offset:          158
+        Length:          0
+        ReplacementText: 'std::move('
+      - FilePath:        car.hpp
+        Offset:          162
+        Length:          0
+        ReplacementText: ')'
+  - DiagnosticName:  hicpp-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      425
+    FilePath:        car.hpp
+    Replacements:    []
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    Message:         'do not declare C-style arrays, use std::array<> instead'
+    FileOffset:      74
+    FilePath:        main.cpp
+    Replacements:    []
+...
