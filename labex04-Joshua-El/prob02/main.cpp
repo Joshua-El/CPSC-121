@@ -8,7 +8,7 @@ int main() {
   double price;
   const double deal = .20;
   const double discount_requirement = 60.00;
-  std::cout << std::fixed << std::setprecision(2) << std::showpoint;
+  std::cout << std::fixed << std::setprecision(2) << std::showpoint; 
   std::cout << "Please input the number of game(s) you want to purchase: ";
   std::cin >> number_of_games;
   if (number_of_games > 0) {
