@@ -3,7 +3,7 @@
 
 int main() {
   int array[10] = {3, 16, 22, 8, 11, 0, 55, 34, 27, 31};
-  int choice;
+  int choice; 
   std::cout << "Array: ";
   for (int i = 0; i < 10; i++) {
     std::cout << array[i] << " ";
