@@ -10,7 +10,7 @@ int main() {
   double bite_size;
 
   std::cout << std::setprecision(0) << std::fixed
-            << "Please enter the name of a food item: ";
+            << "Please enter the name of a food item: "; 
   std::getline(std::cin, name);
   std::cout << "Please enter the mass of the food item: ";
   std::cin >> mass;
