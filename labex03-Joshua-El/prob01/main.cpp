@@ -5,7 +5,7 @@ int main() {
   double first_ticket_cost;
   double second_ticket_cost;
 
-  std ::cout << "Welcome to HoliDeals at the Movies!\n"
+  std ::cout << "Welcome to HoliDeals at the Movies! \n"
              << "Tickets tonight can only be bought in pairs.\n";
   std ::cout << "Here are our movie ticket deals:\n";
   std ::cout << "Children - $10.00\n"
