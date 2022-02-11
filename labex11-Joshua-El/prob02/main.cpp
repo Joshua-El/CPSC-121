@@ -9,7 +9,7 @@ int main() {
   std::cout << "Welcome to the Candy Shop!\n"
             << std::setprecision(2) << std::fixed;
 
-  // This is a loop to ask the user to enter in `Candy` objects
+  // This is a loop to ask the user to enter in `Candy` objects 
   do {
     std::string brand;
     std::string flavor;
