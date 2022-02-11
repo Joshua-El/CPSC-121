@@ -5,7 +5,7 @@
 int main() {
   Car cars[3];
   for (int i = 0; i < 3; i++) {
-    std::string name;
+    std::string name; 
     double price;
     unsigned int mileage;
     std::cout << "Car #" << i + 1 << "\n";
